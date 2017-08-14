@@ -11,8 +11,8 @@ spec:
               cpu: "1.0"
 #              memory: 256Mi
         - volumeMounts:
-          - name: vol0001
-            mountPath: /home/cpandey/pv0001_mountpath
+         - name: vol0001
+           mountPath: /deployments
       volumes:
         - name: vol0001
           persistentVolumeClaim:
