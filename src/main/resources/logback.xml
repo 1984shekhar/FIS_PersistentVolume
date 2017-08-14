@@ -3,7 +3,7 @@
 <configuration>
 
   <appender name="STDOUT" class="ch.qos.logback.core.FileAppender">
-<file>/deployments/fuse.log</file>
+<file>/data/pv0001/fuse.log</file>
 
     <encoder>
       <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
